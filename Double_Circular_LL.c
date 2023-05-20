@@ -328,10 +328,10 @@ int delete_node()
                 current_node->next = NULL;
 
                 // Testing
-                printf("Tail %d\n", tail);
-                printf("%d\n", head->prev);
-                printf("Head %d\n", head);
-                printf("Affrmation Tail %d\n", tail->next);
+                // printf("Tail %d\n", tail);
+                // printf("%d\n", head->prev);
+                // printf("Head %d\n", head);
+                // printf("Affrmation Tail %d\n", tail->next);
                 // End of Testing
 
                 free(current_node); // Deleted the node
@@ -360,10 +360,10 @@ int delete_node()
                     tail->next = head;
                     head->prev = tail;
                     // Testing
-                    printf("Tail %d\n", tail);
-                    printf("%d\n", head->prev);
-                    printf("Head %d\n", head);
-                    printf("Affrmation Tail %d\n", tail->next);
+                    // printf("Tail %d\n", tail);
+                    // printf("%d\n", head->prev);
+                    // printf("Head %d\n", head);
+                    // printf("Affrmation Tail %d\n", tail->next);
                     // End of Testing
                     free(current_node);
                     printf("Node has successfully been deleted!\n");
